@@ -17,32 +17,38 @@ This manual QA project covers functional testing of the OrangeHRM Live demo port
 - Tools: Git & GitHub, Excel/Google Sheets, VS Code/Notepad++, Lightshot/Snagit
 
 ## Project Structure
-/OrangeHRMTesting
-│
-├── TestPlan/
-│ └── OrangeHRM_Test_Plan.md
-├── TestCases/
-│ └── OrangeHRM_TC.xlsx
-├── TestData/
-│ ├── employees.csv
-│ └── profile_pics/
-├── ExecutionResults/
-│ └── Module_Results_Admin.md (and others)
-├── Reports/
-│ ├── Daily_Report_YYYY-MM-DD.md
-│ └── Final_Report.md
-└── README.md
+/OrangeHRMTesting  
+│  
+├── TestPlan/  
+│   └── OrangeHRM_Test_Plan.md  
+├── TestCases/  
+│   └── OrangeHRM_TC.xlsx  
+├── TestData/  
+│   ├── employees.csv  
+│   └── profile_pics/  
+├── ExecutionResults/  
+│   └── Module_Results_Admin.md (and others)  
+├── Reports/  
+│   ├── Daily_Report_YYYY-MM-DD.md  
+│   └── Final_Report.md  
+└── README.md  
 
 ## Test Case Suite
-- Total 50 test cases covering Admin (12), PIM (12), Leave (8), Recruitment (8), Dashboard (5), Exploratory (5)
+- Total 50 test cases covering:
+  - Admin (12)
+  - PIM (12)
+  - Leave (8)
+  - Recruitment (8)
+  - Dashboard (5)
+  - Exploratory (5)
 
 ## Work Plan Summary
-- Day 1: Setup & initial test cases for Admin and PIM
-- Day 2: Finalize test cases and test data
-- Day 3: Execute Admin & PIM tests, log bugs
-- Day 4: Execute Leave & Recruitment, log bugs, daily reporting
-- Day 5: Dashboard & exploratory testing, retesting
-- Day 6: Final reporting, issue cleanup, prepare portfolio materials
+- **Day 1:** Setup & initial test cases for Admin and PIM  
+- **Day 2:** Finalize test cases and test data  
+- **Day 3:** Execute Admin & PIM tests, log bugs  
+- **Day 4:** Execute Leave & Recruitment, log bugs, daily reporting  
+- **Day 5:** Dashboard & exploratory testing, retesting  
+- **Day 6:** Final reporting, issue cleanup, prepare portfolio materials  
 
 ## How to Use
 1. Clone this repository.
