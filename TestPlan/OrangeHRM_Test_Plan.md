@@ -110,7 +110,7 @@ This document defines the formal test plan for conducting functional testing of 
 ## 9. Exit Criteria  
 - All 50 test cases executed and marked PASS/FAIL in execution logs  
 - ~15 defects logged in GitHub Issues with full reproduction steps and screenshots  
-- Daily reports created for Days 1–5 (`Reports/Daily_Report_<YYYY-MM-DD>.md`)  
+- Daily reports created for Days 1–5 (`Reports/Daily_Report_<DD-MM-YYYY>.md`)  
 - Final Report (`Reports/Final_Report.md`) completed, including:  
   - Test summary  
   - Pass/fail metrics  
