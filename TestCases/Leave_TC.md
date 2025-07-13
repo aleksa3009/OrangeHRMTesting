@@ -78,7 +78,7 @@
 **Test Steps & Expected Results:**  
 1. Open Apply Leave form.  
    - *Expected Result:* Form opens.  
-2. Select “From Date” = May 21, 2025 and “To Date” = May 23, 2025.  
+2. Select “From Date” = July 21, 2025 and “To Date” = July 23, 2025.  
    - *Expected Result:* Date pickers accept input.  
 3. Click “Save”.  
    - *Expected Result:* Error “You already have a leave request in this period” displayed; form not submitted.  
