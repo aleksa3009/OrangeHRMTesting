@@ -56,6 +56,10 @@
 3. Upload file `employees.csv` → File accepted.  
 4. Confirm import → Error: “File format not supported.” Import fails.
 
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-004.png) 
+
 ---
 
 ### PIM_TC_05: Verify Admin can upload a profile picture for an employee  
@@ -155,6 +159,10 @@
 2. Click “Import” → Modal opened.  
 3. Upload file `employees_invalid.csv` → File accepted.  
 4. Confirm import → Entire import failed; no detailed error shown.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-005.png) 
 
 ---
 
