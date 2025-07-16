@@ -34,7 +34,12 @@
 **Test Steps & Observations:**  
 1. Opened Dashboard at 1920x1080 → Widgets aligned correctly.  
 2. Opened Dashboard at 1366x768 → Widgets overlapped and some overflowed sidebar.  
+
 **Bug:** Layout not responsive on smaller resolutions.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-012.png)
 
 ---
 
