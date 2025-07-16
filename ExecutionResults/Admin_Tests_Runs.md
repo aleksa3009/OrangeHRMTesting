@@ -81,7 +81,13 @@
 1. Click Add → Form opened.  
 2. Enter username `testuser1` → Accepted.  
 3. Fill all fields → Inputs valid.  
-4. Click Save → No validation error shown; user was re-created → **Bug logged: Duplicate username allowed.**  
+4. Click Save → No validation error shown; user was re-created 
+
+**Bug logged: Duplicate username allowed.**  
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-001.png)
 
 ---
 
@@ -117,7 +123,13 @@
 **Test Steps & Observations:**  
 1. Search user `testuser2`, click Edit → Form shown.  
 2. Enter new password and confirm → Fields accepted.  
-3. Click Save → Message shown, but password didn't update on login retry → **Bug logged: Password reset not applied.**  
+3. Click Save → Message shown, but password didn't update on login retry  
+
+**Bug logged: Password reset not applied.**
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-002.png)  
 
 ---
 
@@ -151,7 +163,13 @@
 
 **Test Steps & Observations:**  
 1. Edit user `testuser5`, set status to Disabled → Saved.  
-2. Edit again, set to Enabled → Save fails with error: "Invalid status update." → **Bug logged.**  
+2. Edit again, set to Enabled → Save fails with error: "Invalid status update."
+
+**Bug logged: Reactivation fails with error**
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-003.png) 
 
 ---
 
