@@ -49,7 +49,12 @@
 **Test Steps & Observations:**  
 1. Tried uploading EXE file → No error shown, file accepted erroneously.  
 2. Tried uploading empty file → No validation triggered.  
+
 **Bug:** Unsupported file types not blocked; validation missing.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-009.png) 
 
 ---
 
@@ -72,7 +77,12 @@
 **Test Steps & Observations:**  
 1. Opened Candidates list → OK.  
 2. Selected filter “Shortlisted” → Shortlisted candidates are not being shown.
+
 **Bug:** Filter "Shorlisted" does not work as intended.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-010.png) 
 
 ---
 
@@ -84,7 +94,12 @@
 **Test Steps & Observations:**  
 1. Attempted to re-apply with same name, email, CV as existing candidate → Form submitted successfully.  
 2. No error or block on duplicates.  
+
 **Bug:** Duplicate candidate detection missing.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-011.png) 
 
 ---
 
