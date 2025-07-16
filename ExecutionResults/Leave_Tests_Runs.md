@@ -27,7 +27,12 @@
 1. Opened Apply form → OK.  
 2. Selected “From Date” and “To Date” = 3 days in the past → Picker allowed selection.  
 3. Clicked “Save” → Request was submitted **without validation error**.  
+
 **Bug:** Past date validation missing.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-006.png) 
 
 ---
 
@@ -64,7 +69,12 @@
 1. Opened My Leave list → Approved leave visible.  
 2. Clicked “Cancel” → Confirmation appeared.  
 3. Confirmed → Status changed to “Cancelled”, message displayed.
+
 **Bug:** Cancellation message is not being displayed.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-007.png) 
 
 ---
 
@@ -77,7 +87,12 @@
 1. Noted balance = 10 days.  
 2. Applied 2-day leave → Request submitted.  
 3. Refreshed page → **Balance remained 10 days.**  
+
 **Bug:** Leave balance not updated after submission.
+
+**Screenshot:**
+
+![Screenshot](/ExecutionResults/Screenshots/BUG-008.png) 
 
 ---
 
