@@ -40,7 +40,7 @@
 
 **Test Steps & Expected Results:**  
 1. Paste 255-character string into Username field.  
-   - *Expected Result:* Field accepts input but UI remains intact.  
+   - *Expected Result:* Field accepts input; no UI distortion, horizontal scroll, or element overlap occurs.  
 
 **Priority:** Medium  
 **Type:** UI  
@@ -70,7 +70,7 @@
 
 **Test Steps & Expected Results:**  
 1. Try to perform any action after timeout.  
-   - *Expected Result:* Redirected to login page; session expired message shown.  
+   - *Expected Result:* Redirected to login page with “Your session has expired” message; user must re-authenticate.  
 
 **Priority:** Medium  
 **Type:** Exploratory 
