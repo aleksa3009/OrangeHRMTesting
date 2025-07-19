@@ -72,7 +72,7 @@
 1. Attempt to upload EXE file as CV.  
    - *Expected Result:* Error message “Unsupported file type” shown.  
 2. Attempt to upload empty file.  
-   - *Expected Result:* Validation error or ignored.  
+   - *Expected Result:* Error message “File is empty” or “Invalid file”. Upload is rejected.  
 
 **Priority:** High  
 **Type:** Negative Functional  
@@ -117,11 +117,11 @@
 **Title:** Verify duplicate candidate resumes cannot be submitted  
 
 **Preconditions:**  
-- Candidate “John Smith” already exists  
+- Candidate “John Smith” already exists in the system
 
 **Test Steps & Expected Results:**  
 1. Re-apply using same name, email, and CV.  
-   - *Expected Result:* Error “Candidate already exists” or blocked.  
+   - *Expected Result:* Error “Candidate already exists”; submisson is blocked.  
 
 **Priority:** Medium  
 **Type:** Negative Functional  
