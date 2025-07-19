@@ -1,6 +1,9 @@
-# Execution Rsults – PIM Module  
-**Date:** 14-07-2025  
-**Tester:** Aleksa Aleksić  
+# Execution Results – PIM Module  
+**Date:** 14-07-2025
+**Module:** PIM
+**Tester:** Aleksa Aleksić
+**Browser:** Chrome 138.0.7204.100  
+**Environment:** Ubuntu 22.04 LTS   
 
 ---
 
@@ -167,7 +170,7 @@
 ---
 
 # Summary
-- **Total Test Cases:** 10  
+- **Total Test Cases:** 12  
 - **Passed:** 10  
 - **Failed:** 2  
 - **Execution Duration:** 1h 20m (09:30–10:50)
