@@ -39,6 +39,7 @@ This document defines the formal test plan for conducting functional testing of 
 - Produce comprehensive QA artifacts: Test Plan, Test Cases, Bug Reports, Execution Results  
 - Utilize GitHub Issues for bug tracking and reporting practices  
 - Complete all testing activities within six (6) workdays, ready for inclusion in a QA portfolio
+- Ensure all artifacts are version-controlled and publicly available in GitHub repository
 
 ---
 
@@ -67,7 +68,7 @@ This document defines the formal test plan for conducting functional testing of 
 
 ## 6. Test Approach & Strategy  
 1. **Test Types:** Functional, UI, negative, boundary, exploratory  
-2. **Design:** Risk-based coverage of happy paths and error conditions  
+2. **Design:** Prioritized risk-based coverage focusing on high-impact workflows (e.g., employee creation, leave assignment), including both happy paths and critical error conditions  
 3. **Data-Driven:** Use `TestData/employees.csv` containing 20 diverse employee records, including edge cases  
 4. **Execution Order:**  
    1. Admin  
@@ -109,7 +110,8 @@ This document defines the formal test plan for conducting functional testing of 
 
 ## 9. Exit Criteria  
 - All 50 test cases executed and marked PASS/FAIL in execution logs  
-- ~15 defects logged in GitHub Issues with full reproduction steps and screenshots  
+- ~15 defects logged in GitHub Issues with full reproduction steps and screenshots
+- All critical/high severity bugs either resolved or verified as "Won’t Fix" with justification  
 - Daily reports created for Days 1–5 (`Reports/Daily_Report_<DD-MM-YYYY>.md`)  
 - Final Report (`Reports/Final_Report.md`) completed, including:  
   - Test summary  
@@ -127,6 +129,7 @@ This document defines the formal test plan for conducting functional testing of 
 | Invalid test data for CSV import        | Low        | Medium | Validate CSV format before execution           |
 | Flaky behavior during photo uploads     | Medium     | Medium | Implement retry logic; test multiple formats   |
 | Delays in GitHub workflow or triage     | Low        | Low    | Use templates and automation for issue labels  |
+| Test environment reset or downtime | Medium | Medium | Regular backups of test data and reinitialization if needed |
 
 ---
 
@@ -136,7 +139,7 @@ This document defines the formal test plan for conducting functional testing of 
 - **Test Data:** `TestData/employees.csv` + `profile_pics/`  
 - **Execution Results:** `ExecutionResults/Module_Results_<module>.md`  
 - **Bug Reports:** GitHub Issues (~15)  
-- **Daily Reports:** `Reports/Daily_Report_<YYYY-MM-DD>.md` (5 files)  
+- **Daily Reports:** `Reports/Daily_Report_<DD-MM-YYYY>.md` (5 files)  
 - **Final Report:** `Reports/Final_Report.md`
 
 ---
