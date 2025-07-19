@@ -40,6 +40,7 @@ A total of **50 structured test cases** and **6 exploratory scenarios** were exe
 │   └── TestRail_Screenshots/
 ├── TestData/
 │   ├── employees.csv
+│   ├── README.md
 │   └── profile_pics/
 ├── ExecutionResults/
 │   ├── Admin_Tests_Runs.md
