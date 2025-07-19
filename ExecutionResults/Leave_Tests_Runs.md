@@ -1,6 +1,9 @@
-# Execution Rsults – Leave Module  
+# Execution Results – Leave Module  
 **Date:** 14-07-2025  
-**Tester:** Aleksa Aleksić  
+**Module:** Leave
+**Tester:** Aleksa Aleksić
+**Browser:** Chrome 138.0.7204.100  
+**Environment:** Ubuntu 22.04 LTS  
 
 ---
 
