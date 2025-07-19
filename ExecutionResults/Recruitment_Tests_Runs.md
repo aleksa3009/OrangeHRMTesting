@@ -1,6 +1,9 @@
-# Execution Rsults – Recruitment Module  
-**Date:** 14-07-2025  
-**Tester:** Aleksa Aleksić  
+# Execution Results – Recruitment Module  
+**Date:** 14-07-2025
+**Module:** Recruitment
+**Tester:** Aleksa Aleksić
+**Browser:** Chrome 138.0.7204.100  
+**Environment:** Ubuntu 22.04 LTS   
 
 ---
 
@@ -78,7 +81,7 @@
 1. Opened Candidates list → OK.  
 2. Selected filter “Shortlisted” → Shortlisted candidates are not being shown.
 
-**Bug:** Filter "Shorlisted" does not work as intended.
+**Bug:** Filter "Shortlisted" does not work as intended.
 
 **Screenshot:**
 
