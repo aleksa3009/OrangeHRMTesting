@@ -1,6 +1,9 @@
-# Execution Rsulults – Dashboard Module  
+# Execution Results – Dashboard Module  
 **Date:** 14-07-2025  
-**Tester:** Aleksa Aleksić  
+**Tester:** Aleksa Aleksić 
+**Module:** Admin  
+**Browser:** Chrome 138.0.7204.100  
+**Environment:** Ubuntu 22.04 LTS 
 
 ---
 
