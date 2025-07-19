@@ -17,7 +17,7 @@ This repository contains all artifacts produced during a six-day manual testing 
 
 A total of **50 structured test cases** and **6 exploratory scenarios** were executed, resulting in **12 logged defects** with clear reproduction steps and screenshots.
 
-*Note: This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.*
+**Note:** This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.*
 
 
 ---
