@@ -507,7 +507,7 @@
 1. Attempt to upload EXE file as CV.  
    - *Expected Result:* Error message “Unsupported file type” shown.  
 2. Attempt to upload empty file.  
-   - *Expected Result:* Validation error or ignored.  
+   - *Expected Result:* Error message “File is empty” or “Invalid file”. Upload is rejected.  
 
 **Priority:** High  
 **Type:** Negative Functional  
@@ -552,11 +552,11 @@
 **Title:** Verify duplicate candidate resumes cannot be submitted  
 
 **Preconditions:**  
-- Candidate “John Smith” already exists  
+- Candidate “John Smith” already exists in the system
 
 **Test Steps & Expected Results:**  
 1. Re-apply using same name, email, and CV.  
-   - *Expected Result:* Error “Candidate already exists” or blocked.  
+   - *Expected Result:* Error “Candidate already exists”; submisson is blocked.  
 
 **Priority:** Medium  
 **Type:** Negative Functional  
@@ -581,7 +581,7 @@
 
 ---
 
-## Exploratory Module – 5 Test Cases
+# Exploratory Module – 5 Test Cases
 
 ### Exploratory_TC_01  
 **Title:** Verify navigation through top bar tabs does not break layout  
@@ -621,7 +621,7 @@
 
 **Test Steps & Expected Results:**  
 1. Paste 255-character string into Username field.  
-   - *Expected Result:* Field accepts input but UI remains intact.  
+   - *Expected Result:* Field accepts input; no UI distortion, horizontal scroll, or element overlap occurs.  
 
 **Priority:** Medium  
 **Type:** UI  
@@ -651,7 +651,7 @@
 
 **Test Steps & Expected Results:**  
 1. Try to perform any action after timeout.  
-   - *Expected Result:* Redirected to login page; session expired message shown.  
+   - *Expected Result:* Redirected to login page with “Your session has expired” message; user must re-authenticate.  
 
 **Priority:** Medium  
 **Type:** Exploratory 
