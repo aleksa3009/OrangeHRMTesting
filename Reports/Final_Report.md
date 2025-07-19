@@ -65,6 +65,7 @@ This project was designed to simulate real-world manual testing scenarios on a p
 │   └── TestRail_Screenshots/
 ├── TestData/
 │   ├── employees.csv
+│   ├── README.md
 │   └── profile_pics/
 ├── ExecutionResults/
 │   ├── Admin_Tests_Runs.md
