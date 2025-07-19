@@ -11,6 +11,8 @@
 
 This report summarizes the comprehensive manual testing efforts on the OrangeHRM Live demo portal. Over six days, we executed functional, negative, and exploratory tests across key HR modules to validate core features and identify defects.
 
+This project was designed to simulate real-world manual testing scenarios on a popular open-source HR platform, emphasizing thoroughness and documentation.
+
 **Modules Tested:** Admin, PIM, Leave, Recruitment, Dashboard, Exploratory
 
 **Artifacts Produced:** Test Plan, 50 Test Cases, Execution Logs, 12 Defect Reports, Exploratory Report, Daily Reports
@@ -99,6 +101,7 @@ This report summarizes the comprehensive manual testing efforts on the OrangeHRM
 - **Execution Duration:** 5 days
 - **Average per TC:** \~10 min
 - **Total Defects:** 12
+- **Overall Test Pass Rate:** 84% (43 passed / 51 total)
 
 ---
 
